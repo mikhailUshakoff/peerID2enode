@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-libp2p = { version = "0.56", features = ["secp256k1"] }
+libp2p = { version = "0.56", features = ["secp256k1", "ed25519"] }
 hex = "0.4.3"
